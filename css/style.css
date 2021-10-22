@@ -1,0 +1,388 @@
+@media screen and (min-width: 641px) {
+    body {
+        background-color: F4FFE0;
+        text-align: center;
+    }
+
+    #h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #59AE7F;
+        font-size: 36px;
+    }
+
+    .peso-box {
+        background: linear-gradient(0deg, rgba(93, 217, 115, 0.2), rgba(93, 217, 115, 0.2)), #59AE7F;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: relative;
+        width: 366px;
+        height: 90px;
+        left: calc(50% - 366px/2 - 1px);
+        top: calc(50% - 90px/2 - 281px);
+
+    }
+
+    #peso-header {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: -18px;
+    }
+
+    #peso-sub {
+        color: white;
+        /* font-family: 'Alegreya Sans', sans-serif; */
+
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    #peso-input {
+        background: #F4FFE0;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        border: none;
+
+        text-align: center;
+        font-size: 24px;
+        font-family: helvetica;
+
+        position: relative;
+        top: -85px;
+        left: 95px;
+        bottom: 50%;
+        width: 133.99px;
+        height: 50px;
+    }
+
+    .altura-box {
+        background: linear-gradient(0deg, rgba(93, 217, 115, 0.2), rgba(93, 217, 115, 0.2)), #59AE7F;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: relative;
+        width: 366px;
+        height: 90px;
+        left: calc(50% - 366px/2 - 1px);
+        top: calc(50% - 90px/2 - 151px);
+    }
+
+    #altura-header {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: -18px;
+    }
+
+    #altura-sub {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    #altura-input {
+        background: #F4FFE0;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        border: none;
+
+        text-align: center;
+        font-size: 24px;
+        font-family: helvetica;
+
+        position: relative;
+        bottom: 85px;
+        left: 95px;
+        width: 133.99px;
+        height: 50px;
+    }
+
+    #calcular-btn {
+        position: absolute;
+        border: none;
+        cursor: pointer;
+        width: 175px;
+        height: 90px;
+        left: calc(50% - 168px/2 - 100px);
+        top: 318px;
+
+        background: linear-gradient(0deg, rgba(52, 73, 94, 0.2), rgba(52, 73, 94, 0.2)), #3E4651;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .resultado-box {
+        background: linear-gradient(0deg, rgba(52, 73, 94, 0.2), rgba(52, 73, 94, 0.2)), #3E4651;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: absolute;
+        width: 175px;
+        height: 90px;
+        left: calc(51% - 187px/2 + 88.5px);
+        top: 318px;
+
+        text-align: center;
+        font-size: 24px;
+        line-height: 35px;
+        align-items: center;
+        color: white;
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .creditos {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 21px;
+
+        position: relative;
+        text-align: center;
+        bottom: -200px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: F4FFE0;
+        text-align: center;
+    }
+
+    #h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #59AE7F;
+    }
+
+    .peso-box {
+        background: linear-gradient(0deg, rgba(93, 217, 115, 0.2), rgba(93, 217, 115, 0.2)), #59AE7F;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: relative;
+        width: 295px;
+        height: 90px;
+        left: calc(50% - 295px/2 - 0.5px);
+        top: calc(50% - 90px/2 - 177px);
+    }
+
+    #peso-header {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: -18px;
+    }
+
+    #peso-sub {
+        color: white;
+        /* font-family: 'Alegreya Sans', sans-serif; */
+
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    #peso-input {
+        background: #F4FFE0;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        border: none;
+
+        text-align: center;
+        font-size: 24px;
+        font-family: helvetica;
+
+        position: relative;
+        top: -85px;
+        left: 70px;
+        bottom: 50%;
+        width: 108px;
+        height: 50px;
+    }
+
+    .altura-box {
+        background: linear-gradient(0deg, rgba(93, 217, 115, 0.2), rgba(93, 217, 115, 0.2)), #59AE7F;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: relative;
+        width: 295px;
+        height: 90px;
+        left: calc(50% - 295px/2 - 0.5px);
+        top: calc(50% - 90px/2 - 53px);
+    }
+
+    #altura-header {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: -18px;
+    }
+
+    #altura-sub {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+
+        position: relative;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    #altura-input {
+        background: #F4FFE0;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+        border-radius: 11px;
+        border: none;
+
+        text-align: center;
+        font-size: 24px;
+        font-family: helvetica;
+
+        position: relative;
+        bottom: 85px;
+        left: 70px;
+        width: 108px;
+        height: 50px;
+    }
+
+    #calcular-btn {
+        position: absolute;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        width: 141px;
+        height: 90px;
+        left: calc(50% - 141px/2 - 77.5px);
+        top: 312px;
+
+        background: linear-gradient(0deg, rgba(52, 73, 94, 0.2), rgba(52, 73, 94, 0.2)), #3E4651;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 35px;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .resultado-box {
+        background: linear-gradient(0deg, rgba(52, 73, 94, 0.2), rgba(52, 73, 94, 0.2)), #3E4651;
+        box-shadow: 0px 5px 23px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+        position: absolute;
+        width: 143px;
+        height: 90px;
+        left: calc(49% - 142px/2 + 80px);
+        top: 312px;
+
+        text-align: center;
+        font-size: 24px;
+        line-height: 35px;
+        align-items: center;
+        color: white;
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    .creditos {
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 21px;
+
+        position: relative;
+        text-align: center;
+        bottom: -200px;
+    }
+}

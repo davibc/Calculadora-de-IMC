@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.imgur.com/9r0ixwd.png" type="image/png">
+    <title>Calculadora de IMC</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Montserrat Bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Heebo Bold -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
+    <!-- Heebo Thin -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap" rel="stylesheet">
+    <!-- Alegreya Sans Thin -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1 id="h1">Calculadora de IMC</h1>
+    </div>
+
+    <div class="peso-box">
+        <div id="peso-texto">
+            <p id="peso-header">Peso</p>
+            <p id="peso-sub">Em quilogramas</p>
+        </div>
+        <div>
+            <input type="text" id="peso-input">
+        </div>
+    </div>
+
+    <div class="altura-box">
+        <div id="altura-texto">
+            <p id="altura-header">Altura</p>
+            <p id="altura-sub">Em metros</p>
+        </div>
+        <div>
+            <input type="text" id="altura-input">
+        </div>
+    </div>
+
+    <div class="calcular-box" onclick="">
+        <button id="calcular-btn" onclick="calcularIMC()">Calcular</button>
+    </div>
+
+    <div class="resultado-box">
+        <p id="resultado"></p>
+    </div>
+
+    <div class="creditos">
+        <p id="criador">© Davi Barbosa Costa</p>
+        <p id="github"><a href="https://github.com/davibc" target="_blank">GitHub</a></p>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
